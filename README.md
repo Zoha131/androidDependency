@@ -14,6 +14,8 @@ android {
 ```
 [doc](https://developer.android.com/topic/libraries/data-binding) |  [release](https://developer.android.com/jetpack/androidx/releases/databinding)
 
+---
+
 #### Lifecycle | LiveData | ViewModel
 ```gradle
 dependencies {
@@ -33,6 +35,8 @@ dependencies {
 ```
 [doc](https://developer.android.com/topic/libraries/architecture/livedata) |  [release](https://developer.android.com/jetpack/androidx/releases/lifecycle)
 
+---
+
 #### Navigation
 ```gradle
 dependencies {
@@ -43,6 +47,8 @@ dependencies {
 }
 ```
 [doc](https://developer.android.com/guide/navigation) |  [release](https://developer.android.com/jetpack/androidx/releases/navigation)
+
+---
 
 #### Paging
 ```gradle
@@ -59,6 +65,8 @@ dependencies {
 }
 ```
 [doc](https://developer.android.com/training/data-storage/room/index.html) |  [release](https://developer.android.com/jetpack/androidx/releases/room)
+
+---
 
 #### Room
 ```gradle
@@ -82,6 +90,8 @@ dependencies {
 }
 ```
 [doc](https://developer.android.com/topic/libraries/architecture/paging/) |  [release](https://developer.android.com/jetpack/androidx/releases/paging)
+
+---
 
 #### WorkManager
 ```gradle
@@ -109,6 +119,8 @@ dependencies {
 ```
 [doc](https://developer.android.com/topic/libraries/support-library/packages.html#v7-appcompat) |  [release](https://developer.android.com/jetpack/androidx/releases/appcompat)
 
+---
+
 #### Android KTX
 ```gradle
 dependencies {
@@ -116,6 +128,8 @@ dependencies {
 }
 ```
 [doc](https://developer.android.com/kotlin/ktx.html) |  [release](https://developer.android.com/jetpack/androidx/releases/core)
+
+---
 
 #### Multidex 
 **Therefore, if your minSdkVersion is 21 or higher, you do not need the multidex support library.**
@@ -126,8 +140,12 @@ dependencies {
 ```
 [doc](https://developer.android.com/studio/build/multidex.html) |  [release](https://developer.android.com/jetpack/androidx/releases/multidex)
 
+---
+
 #### Test 
 [doc](https://developer.android.com/training/testing/) |  [release](https://developer.android.com/jetpack/androidx/releases/test)
+
+---
 
 ## Library
 
@@ -139,6 +157,8 @@ dependencies {
 }
 ```
 [doc](https://developer.android.com/guide/topics/ui/layout/recyclerview) | [release](https://developer.android.com/jetpack/androidx/releases/recyclerview)
+
+---
 
 #### Epoxy - Airbnb
 ```gradle
@@ -155,6 +175,8 @@ dependencies {
 ```
 [doc](https://github.com/airbnb/epoxy/wiki) | [release](https://github.com/airbnb/epoxy/releases)
 
+---
+
 #### Paris - Airbnb
 ```gradle
 dependencies {
@@ -164,6 +186,8 @@ dependencies {
 ```
 [doc](https://github.com/airbnb/paris/wiki) | [release](https://github.com/airbnb/paris/releases)
 
+---
+
 #### Lottie - Airbnb
 ```gradle
 dependencies {
@@ -172,6 +196,8 @@ dependencies {
 ```
 [doc](https://airbnb.io/lottie/#/android) | [release](https://github.com/airbnb/lottie-android/releases)
 
+---
+
 #### MvRx - Airbnb
 ```gradle
 dependencies {
@@ -179,6 +205,8 @@ dependencies {
 }
 ```
 [doc](https://github.com/airbnb/MvRx/wiki) | [release](https://github.com/airbnb/MvRx/releases)
+
+---
 
 #### Koin
 ```gradle
@@ -195,6 +223,8 @@ dependencies {
 }
 ```
 [doc](https://insert-koin.io/docs/2.0/quick-references/starting-koin/) |  [release](https://github.com/InsertKoinIO/koin/releases)
+
+---
 
 
 
