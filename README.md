@@ -129,9 +129,72 @@ dependencies {
 #### Test 
 [doc](https://developer.android.com/training/testing/) |  [release](https://developer.android.com/jetpack/androidx/releases/test)
 
+## Library
 
 
+#### RecyclerView
+```gradle
+dependencies {
+  implementation 'androidx.recyclerview:recyclerview:1.0.0'
+}
+```
+[doc](https://developer.android.com/guide/topics/ui/layout/recyclerview) | [release](https://developer.android.com/jetpack/androidx/releases/recyclerview)
 
+#### Epoxy - Airbnb
+```gradle
+apply plugin: 'kotlin-kapt'
+
+kapt {
+    correctErrorTypes = true
+}
+
+dependencies {
+  implementation 'com.airbnb.android:epoxy:3.4.0'
+  kapt 'com.airbnb.android:epoxy-processor:3.4.0'
+}
+```
+[doc](https://github.com/airbnb/epoxy/wiki) | [release](https://github.com/airbnb/epoxy/releases)
+
+#### Paris - Airbnb
+```gradle
+dependencies {
+    implementation 'com.airbnb.android:paris:1.2.1'
+    kapt 'com.airbnb.android:paris-processor:1.2.1'
+}
+```
+[doc](https://github.com/airbnb/paris/wiki) | [release](https://github.com/airbnb/paris/releases)
+
+#### Lottie - Airbnb
+```gradle
+dependencies {
+    implementation "com.airbnb.android:lottie:3.0.0"
+}
+```
+[doc](https://airbnb.io/lottie/#/android) | [release](https://github.com/airbnb/lottie-android/releases)
+
+#### MvRx - Airbnb
+```gradle
+dependencies {
+  implementation 'com.airbnb.android:mvrx:1.0.0'
+}
+```
+[doc](https://github.com/airbnb/MvRx/wiki) | [release](https://github.com/airbnb/MvRx/releases)
+
+#### Koin
+```gradle
+repositories {
+  jcenter()    
+}
+dependencies {
+    // Koin for Android
+    compile 'org.koin:koin-android:2.0.0-rc-2'
+    // or Koin for Lifecycle scoping
+    compile 'org.koin:koin-androidx-scope:2.0.0-rc-2'
+    // or Koin for Android Architecture ViewModel
+    compile 'org.koin:koin-androidx-viewmodel:2.0.0-rc-2'
+}
+```
+[doc](https://insert-koin.io/docs/2.0/quick-references/starting-koin/) |  [release](https://github.com/InsertKoinIO/koin/releases)
 
 
 
