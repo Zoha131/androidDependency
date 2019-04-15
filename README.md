@@ -107,6 +107,8 @@ dependencies {
 ```
 [doc](https://developer.android.com/topic/libraries/architecture/workmanager) |  [release](https://developer.android.com/jetpack/androidx/releases/work)
 
+---
+
 ## Foundation
 
 #### AppCompat
@@ -192,7 +194,7 @@ dependencies {
     implementation "com.airbnb.android:lottie:3.0.0"
 }
 ```
-[doc](https://airbnb.io/lottie/#/android) | [release](https://github.com/airbnb/lottie-android/releases)
+[doc](https://airbnb.io/lottie/#/android) | [release](https://github.com/airbnb/lottie-android/releases) | [lottiefiles](https://lottiefiles.com)
 
 ---
 
