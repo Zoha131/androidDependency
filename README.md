@@ -215,16 +215,69 @@ repositories {
 }
 dependencies {
     // Koin for Android
-    compile 'org.koin:koin-android:2.0.0-rc-2'
+    implementation 'org.koin:koin-android:2.0.0-rc-2'
     // or Koin for Lifecycle scoping
-    compile 'org.koin:koin-androidx-scope:2.0.0-rc-2'
+    implementation 'org.koin:koin-androidx-scope:2.0.0-rc-2'
     // or Koin for Android Architecture ViewModel
-    compile 'org.koin:koin-androidx-viewmodel:2.0.0-rc-2'
+    implementation 'org.koin:koin-androidx-viewmodel:2.0.0-rc-2'
 }
 ```
 [doc](https://insert-koin.io/docs/2.0/quick-references/starting-koin/) |  [release](https://github.com/InsertKoinIO/koin/releases)
 
 ---
+
+#### okHttp
+```gradle
+dependencies {
+  implementation "com.squareup.okhttp3:okhttp:3.14.1"
+  
+  testImplementation "com.squareup.okhttp3:mockwebserver:3.14.1"
+}
+```
+[doc](https://github.com/square/okhttp/wiki) |  [release](https://github.com/square/okhttp/releases)
+
+---
+
+#### Retrofit
+```gradle
+dependencies {
+    def retrofit_version = "2.5.0"
+    
+    implementation "com.squareup.retrofit2:retrofit:$retrofit_version"
+    
+    //for gson converter
+    implementation "com.squareup.retrofit2:converter-gson:$retrofit_version"
+    
+    //for moshi converter
+    implementation "com.squareup.retrofit2:converter-moshi:$retrofit_version"    
+    
+}
+```
+[doc](https://square.github.io/retrofit/) |  [release](https://github.com/square/retrofit/releases)
+
+---
+
+#### Gson
+```gradle
+dependencies {
+  implementation 'com.google.code.gson:gson:2.8.5'
+}
+```
+[doc](https://github.com/google/gson) |  [release](https://github.com/google/gson/releases)
+
+---
+
+#### Moshi
+```gradle
+dependencies {
+  implementation "com.squareup.moshi:moshi:1.8.0"
+}
+```
+[doc](https://github.com/square/moshi) |  [release](https://github.com/square/moshi/releases)
+
+---
+
+
 
 
 
