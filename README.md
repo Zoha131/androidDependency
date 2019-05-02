@@ -226,6 +226,19 @@ dependencies {
 
 ---
 
+#### Dagger
+```gradle
+apply plugin: 'kotlin-kapt'
+
+dependencies {
+    implementation 'com.google.dagger:dagger:2.22.1'
+    kapt 'com.google.dagger:dagger-compiler:2.22.1'
+}
+```
+[doc](https://google.github.io/dagger/users-guide) |  [release](https://github.com/google/dagger/releases)
+
+---
+
 #### okHttp
 ```gradle
 dependencies {
