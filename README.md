@@ -304,6 +304,25 @@ dependencies {
 
 ---
 
+#### Firebase
+```gradle
+// In project-level build.gradle file
+dependencies {
+  classpath 'com.google.gms:google-services:4.2.0'
+}
+
+// In app-level build.gradle file
+dependencies {
+  implementation 'com.google.firebase:firebase-core:16.0.8'
+}
+
+apply plugin: 'com.google.gms.google-services'
+
+// Don't forget to add google-services.json file in the app folder
+```
+[doc](https://firebase.google.com/docs/guides) |  [release](https://firebase.google.com/docs/android/setup#available-libraries)
+
+---
 
 
 
