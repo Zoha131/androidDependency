@@ -296,9 +296,9 @@ dependencies {
   implementation 'com.google.android.material:material:1.0.0'
 }
 
-# Compile your app with Android P
-# Ensure you are using *AppCompatActivity*
-# Change your app theme to inherit from a Material Components theme
+// Compile your app with Android P
+// Ensure you are using *AppCompatActivity*
+// Change your app theme to inherit from a Material Components theme
 ```
 [doc](https://material.io/develop/android/components/dialog/) |  [release](https://github.com/material-components/material-components-android/releases)
 
