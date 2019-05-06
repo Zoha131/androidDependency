@@ -324,6 +324,15 @@ apply plugin: 'com.google.gms.google-services'
 
 ---
 
+#### RxJava
+```gradle
+dependencies {
+  implementation "io.reactivex.rxjava2:rxjava:2.2.8"
+}
+```
+[doc](https://github.com/ReactiveX/RxJava) |  [release](https://github.com/ReactiveX/RxJava/releases)
+
+---
 
 
 
