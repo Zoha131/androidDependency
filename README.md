@@ -334,6 +334,16 @@ dependencies {
 
 ---
 
+#### ConstraintLayout
+```gradle
+dependencies {
+  implementation 'androidx.constraintlayout:constraintlayout:2.0.0-beta1'
+}
+```
+[doc](https://developer.android.com/training/constraint-layout) |  [release](https://developer.android.com/jetpack/androidx/releases/constraintlayout)
+
+---
+
 
 
 
