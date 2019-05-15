@@ -134,7 +134,7 @@ dependencies {
 ---
 
 #### Multidex 
-**Therefore, if your minSdkVersion is 21 or higher, you do not need the multidex support library.**
+**If your minSdkVersion is 21 or higher, you do not need the multidex support library.**
 ```gradle
 dependencies {
   implementation 'com.android.support:multidex:1.0.3'
