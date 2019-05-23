@@ -3,6 +3,24 @@
 
 ## Architecture
 
+### Good To Have Configure
+```gradle
+apply plugin: 'kotlin-kapt'
+
+androidExtensions {
+    experimental = true
+}
+
+android {
+    ...
+    compileOptions {
+        sourceCompatibility = 1.8
+        targetCompatibility = 1.8
+    }
+    buildToolsVersion = '28.0.3'
+}
+```
+
 #### Data Binding
 ```gradle
 android {
@@ -333,6 +351,30 @@ dependencies {
 }
 ```
 [doc](https://github.com/ReactiveX/RxJava) |  [release](https://github.com/ReactiveX/RxJava/releases)
+
+---
+
+#### RxBinding
+```gradle
+dependencies {
+  //Platform bindings
+  implementation 'com.jakewharton.rxbinding3:rxbinding:3.0.0-alpha2'
+  
+  //AndroidX library bindings:
+  implementation 'com.jakewharton.rxbinding3:rxbinding-core:3.0.0-alpha2'
+  implementation 'com.jakewharton.rxbinding3:rxbinding-appcompat:3.0.0-alpha2'
+  implementation 'com.jakewharton.rxbinding3:rxbinding-drawerlayout:3.0.0-alpha2'
+  implementation 'com.jakewharton.rxbinding3:rxbinding-leanback:3.0.0-alpha2'
+  implementation 'com.jakewharton.rxbinding3:rxbinding-recyclerview:3.0.0-alpha2'
+  implementation 'com.jakewharton.rxbinding3:rxbinding-slidingpanelayout:3.0.0-alpha2'
+  implementation 'com.jakewharton.rxbinding3:rxbinding-swiperefreshlayout:3.0.0-alpha2'
+  implementation 'com.jakewharton.rxbinding3:rxbinding-viewpager:3.0.0-alpha2'
+  
+  //Google 'material' library bindings:
+  implementation 'com.jakewharton.rxbinding3:rxbinding-material:3.0.0-alpha2'
+}
+```
+[doc](https://github.com/JakeWharton/RxBinding) |  [release](https://github.com/JakeWharton/RxBinding/releases)
 
 ---
 
