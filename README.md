@@ -284,6 +284,9 @@ dependencies {
     //for moshi converter
     implementation "com.squareup.retrofit2:converter-moshi:$retrofit_version"    
     
+    //for RxJava adapter
+    implementation "com.squareup.retrofit2:adapter-rxjava2:$retrofit_version"
+    
 }
 ```
 [doc](https://square.github.io/retrofit/) |  [release](https://github.com/square/retrofit/releases)
