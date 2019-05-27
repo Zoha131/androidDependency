@@ -355,6 +355,9 @@ dependencies {
   implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:$coroutines_version"
 }
 ```
+[doc](https://kotlinlang.org/docs/reference/coroutines-overview.html) |  [release](https://github.com/Kotlin/kotlinx.coroutines/releases)
+
+---
 
 #### RxJava
 ```gradle
