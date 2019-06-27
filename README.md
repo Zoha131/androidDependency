@@ -46,9 +46,18 @@ dependencies {
 
     // ViewModel and LiveData
     implementation "androidx.lifecycle:lifecycle-extensions:$lifecycle_version"
-   
-    kapt "androidx.lifecycle:lifecycle-compiler:$lifecycle_version"
     
+    // alternatively - just ViewModel
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycle_version"
+    
+    // alternatively - just LiveData
+    implementation "androidx.lifecycle:lifecycle-livedata:$lifecycle_version"
+    
+    // alternatively - Lifecycles only (no ViewModel or LiveData). Some UI
+    implementation "androidx.lifecycle:lifecycle-runtime:$lifecycle_version"
+
+    kapt "androidx.lifecycle:lifecycle-compiler:$lifecycle_version"
+
     // optional - ReactiveStreams support for LiveData
     implementation "androidx.lifecycle:lifecycle-reactivestreams-ktx:$lifecycle_version"
 
