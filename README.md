@@ -19,7 +19,12 @@ android {
     }
     buildToolsVersion = '28.0.3'
 }
+
+// In gradle.properties file
+kapt.incremental.apt=true
+kapt.use.worker.api=true
 ```
+[Increment Help](https://medium.com/@daniel_novak/making-incremental-kapt-work-speed-up-your-kotlin-projects-539db1a771cf)
 
 #### Data Binding
 ```gradle
