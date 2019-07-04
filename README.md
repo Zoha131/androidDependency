@@ -364,7 +364,7 @@ apply plugin: 'com.google.gms.google-services'
 #### Coroutine
 ```gradle
 dependencies {
-  def coroutines_version = "1.2.1"
+  def coroutines_version = "1.3.0-M2"
   implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:$coroutines_version"
   implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:$coroutines_version"
 }
