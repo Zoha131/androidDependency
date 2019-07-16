@@ -65,7 +65,7 @@ dependencies {
     testImplementation "androidx.arch.core:core-testing:$lifecycle_version"
 }
 ```
-[doc](https://developer.android.com/topic/libraries/architecture/livedata) |  [release](https://developer.android.com/jetpack/androidx/releases/lifecycle)
+[doc](https://developer.android.com/topic/libraries/architecture/livedata) |  [release](https://developer.android.com/jetpack/androidx/releases/lifecycle) | [coroutine support](https://developer.android.com/topic/libraries/architecture/coroutines)
 
 ---
 
