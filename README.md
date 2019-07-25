@@ -419,6 +419,16 @@ dependencies {
 
 ---
 
+#### Kotlin HTML Builder
+```gradle
+dependencies {
+  implementation "org.jetbrains.kotlinx:kotlinx-html-jvm:0.6.12"
+}
+```
+[doc](https://github.com/Kotlin/kotlinx.html) |  [release](https://github.com/Kotlin/kotlinx.html/releases)
+
+---
+
 
 
 
