@@ -1,6 +1,8 @@
 
 #### [Google Maven Repository](https://dl.google.com/dl/android/maven2/index.html)
 
+#### [Google Version Doc](https://developer.android.com/jetpack/androidx/versions)
+
 ## Architecture
 
 ### Good To Have Configure
@@ -72,11 +74,23 @@ dependencies {
 #### Navigation
 ```gradle
 dependencies {
-    def nav_version = "2.1.0-alpha02"
+    def nav_version = "2.1.0-beta02"
 
     implementation "androidx.navigation:navigation-fragment-ktx:$nav_version" 
     implementation "androidx.navigation:navigation-ui-ktx:$nav_version" 
 }
+
+//To add Safe Args to your project, include the following classpath in your top level build.gradle file:
+dependencies {
+    def nav_version = "2.1.0-beta02"
+    classpath "androidx.navigation:navigation-safe-args-gradle-plugin:$nav_version"
+ }
+ 
+ //To generate Kotlin code suitable for Kotlin-only modules add:
+ apply plugin: "androidx.navigation.safeargs.kotlin"
+ 
+ //Add the following line in gradle.properties file 
+ android.useAndroidX=true
 ```
 [doc](https://developer.android.com/guide/navigation) |  [release](https://developer.android.com/jetpack/androidx/releases/navigation)
 
