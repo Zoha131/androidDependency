@@ -19,6 +19,11 @@ android {
         sourceCompatibility = 1.8
         targetCompatibility = 1.8
     }
+
+    kotlinOptions {
+        jvmTarget = "1.8"
+    }
+
     buildToolsVersion = '28.0.3'
 }
 
