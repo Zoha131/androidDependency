@@ -448,7 +448,47 @@ dependencies {
 
 ---
 
+#### Junit5 :: Test :: AndroidTest
+```gradle
 
+//include the following classpath in your top level build.gradle file:
+dependencies {
+    ...
+    classpath "de.mannodermaus.gradle.plugins:android-junit5:1.4.2.0"
+ }
+ 
+ //in the module level build.gradle file add:
+ apply plugin: "de.mannodermaus.android-junit5"
+ 
+ //Add the following line in module level gradle file 
+ dependencies {
+    
+    ...
+    
+    // --- Pure JVM Unit Test ---
+    // Junit5 :: Assertj :: Mockito
+    def junit_jupiter_version = "5.5.2"
+    testImplementation "org.junit.jupiter:junit-jupiter-api:$junit_jupiter_version"
+    testImplementation "org.junit.jupiter:junit-jupiter-params:$junit_jupiter_version"
+    testRuntimeOnly "org.junit.jupiter:junit-jupiter-engine:$junit_jupiter_version"
+    testImplementation "org.assertj:assertj-core:3.11.1"
+    testImplementation "org.mockito:mockito-core:2.19.0"
+
+
+    // --- AndroidTest ---
+    // Junit4 :: AndroidX Test :: Architecture Component Test :: Espresso :: Robolectric
+    androidTestImplementation 'junit:junit:4.12'
+    androidTestImplementation "androidx.test:core:1.2.0"
+    androidTestImplementation "androidx.test:runner:1.2.0"
+    androidTestImplementation "androidx.arch.core:core-testing:2.1.0"
+    testImplementation 'org.robolectric:robolectric:4.3'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+
+}
+```
+[doc](https://junit.org/junit5/docs/current/user-guide/) |  [release](https://junit.org/junit5/)
+
+---
 
 
 
